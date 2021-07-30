@@ -1,0 +1,60 @@
+body {
+    margin-top: 50px;
+    text-align: center;
+    background-color: rgb(51, 51, 51);
+    color: rgb(211, 226, 231);
+    line-height: 1.6;
+    font-family: 'Trebuchet MS';
+}
+
+p, header {
+    padding: 5px;
+    margin-left: 180px;
+    margin-right: 180px;
+}
+
+h2 {
+  color: rgb(245, 241, 7);
+  margin-top: 50px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(211, 226, 231);
+    position: fixed;
+    top: 0;
+  }
+  
+  li {
+    float: left;
+    border-right: 1px solid #333;
+  }
+  
+  li a {
+    display: inline-block;
+    color: #333;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  li a:hover {
+    background-color: aqua;
+  }
+
+  figcaption {
+      font-size: 11px;
+      color: rgb(126, 134, 136);
+      font-style: italic;
+  }
+
+  figure {
+    padding: 10px;
+  }
+
+a {
+  color: aqua;
+}
