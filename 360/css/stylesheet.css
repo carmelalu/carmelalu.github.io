@@ -1,0 +1,189 @@
+body {
+    background-image: url(../images/spac_bg.jpeg);
+    background-repeat: repeat-y;
+    color: rgb(246, 231, 16);
+    background-size: 100%;
+    font-family: Titillium Web;
+    
+    text-align: justify;
+}
+
+#wrapper {
+    width: 100%;
+    overflow: hidden;
+}
+
+p {
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 14px;
+}
+
+h5 {
+    color: white;
+    font-family: Teko;
+    font-size: 30px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+h4 {
+    margin-left: 10%;
+    margin-right: 10%;
+    font-family: Teko;
+    font-size: 30px;
+    color: rgb(246, 231, 16);
+}
+
+.subHead {
+    text-align: center;
+}
+
+section {
+    margin-top: 20%;
+}
+
+#stats-9 {
+    width: 10%;
+}
+.vs-video {
+    width: 200%;
+    margin-left: -55%;
+}
+
+#kyberGreen{
+    display: none;
+}
+
+#kyberGreenMobile{
+    display: block;
+}
+
+#kyberBlue {
+    display: none;
+}
+
+#kyberBlueMobile {
+    display: block; 
+}
+
+#kyberRed {
+    display: none;
+}
+
+#kyberRedMobile {
+    display: block; 
+}
+
+#hilt{
+    display: none;
+}
+
+#hilt-mobile {
+    display: block;
+    margin-bottom: 15%;
+}
+
+
+.quotes {
+    font-style: italic;
+    color: white;
+}
+
+.tab {
+    display: inline-block;
+    margin-left: 40px;
+}
+
+img {
+    width:100%;
+}
+
+.center {
+    text-align: center;
+}
+
+#stats-7 {
+    width: 15%;
+}
+
+.hideme
+{
+    opacity:0;
+}
+
+@media only screen and (min-width: 992px) {
+    
+p {
+    font-size: 18px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h4, h5 {
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 50px;
+}
+
+#kyberGreen {
+    display: block;
+}
+
+#kyberGreenMobile {
+    display: none;
+}
+
+#kyberBlue {
+    display: block;
+}
+
+#kyberBlueMobile {
+    display: none;
+
+}
+
+#kyberRed {
+    display: block;
+}
+
+#kyberRedMobile {
+    display: none;
+
+}
+
+#hilt {
+    display: block;
+    width: 120%;
+    margin-top: 12%;
+    margin-bottom: 12%;
+    margin-left: -10%;
+}
+
+#hilt-mobile {
+    display: none;
+}
+
+#origin .origin-video {
+    visibility: hidden;
+}
+
+#origin:hover .origin-video {
+    visibility: visible;
+}
+
+#dark .dark-video {
+    visibility: hidden;
+}
+
+#dark:hover .dark-video {
+    visibility: visible;
+}
+
+.vs-video {
+    width: 100%;
+    margin-left: auto;
+}
+
+
+}
